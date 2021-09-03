@@ -17,16 +17,16 @@ a=getKhoa.GetData(key='BehDhlIyPwKozERUb2BYQ==',
 
 st=a.stations# 관측소 위치정보, 목록 및 ID정보
 ```
-st
+
 
 ## 관측자료 다운로드 
-"""
 특정 위치(DT_0001:가덕도)의 특정 기간동안(2021-02-01 ~ 2021-03-01) 시간단위 조위관측소 예측조위 자료 추출
-"""
+
+```python
 df,err=a.downloadApi(start_date='20210201',end_date='20210301',
                      station_list=['DT_0001'],data_type_list=['tideObsPre'])
+```
 
-"""
 특정 위치(DT_0001:가덕도)의 특정 기간동안(2021-03-01 ~ 2021-03-01) 분단위 조위관측소 예측조위 자료 추출
 """
 df,err=a.downloadApi(start_date='20210301',end_date='20210301',
