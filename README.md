@@ -9,12 +9,15 @@ The missImputeTS package For installation execute in python:
 pip install getKhoa
 ```
 
+```{python}
 import getKhoa
+
 a=getKhoa.GetData(key='BehDhlIyPwKozERUb2BYQ==',
                station_type_list=['조위관측소','해양관측소','해양과학기지','해양관측부이'])
 
-st=a.stations
-st#관측소 위치정보, 목록 및 ID정보
+st=a.stations 관측소 위치정보, 목록 및 ID정보
+```
+st
 
 ## 관측자료 다운로드 
 """
