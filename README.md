@@ -55,7 +55,7 @@ df,err=a.getData('tideObsHar',add_query=f'&ObsCode=DT_0001&Date=20160601')
 ```
 
 
-### downloadApi
+### downloadApi 함수 옵션 및 설명 
     + start_date : 다운로드 받을 자료의 처음시간
     + end_date   : 다운로드 받을 자료의 끝시간
     + and_query  : URL에 추가로 붙을 query
