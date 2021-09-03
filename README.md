@@ -1,10 +1,10 @@
 # getKhoa
 
 This package is Khoa download using api.
+[khoa](http://www.khoa.go.kr/oceangrid/khoa/takepart/openapi/openApiObsServiceInfo.do)
 
 ## Installation
-The missImputeTS package For installation execute in python:
-
+The getKhoa package For installation execute in python:
 ```bash
 pip install getKhoa
 ```
